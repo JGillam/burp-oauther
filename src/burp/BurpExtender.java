@@ -9,5 +9,6 @@ public class BurpExtender implements IBurpExtender {
     public void registerExtenderCallbacks(IBurpExtenderCallbacks callbacks) {
 
         OAutherExtension.registerExtenderCallbacks(callbacks);
+
     }
 }
