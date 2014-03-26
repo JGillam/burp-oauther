@@ -13,6 +13,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * BurpExtender delegate
+ */
 public class OAutherExtension implements IBurpExtender, IHttpListener {
     private JPanel mainPanel;
     private JCheckBox enableOAuthWrappingCheckBox;
